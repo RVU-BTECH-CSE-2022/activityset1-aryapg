@@ -29,8 +29,6 @@ void output(int n,int a[n],int sum)
     {
       printf("%d+",a[i]);
     }
-  
-  
   printf("%d= %d\n",a[i],sum);
 }
 int main()

@@ -19,12 +19,12 @@ int compare(char s1[],char s2[])
   {
   if((s1[i]>s2[i])&(s1[i]&s2[i]>0))
   {
-    printf("the lagrest string is %s:",s1);
+    printf("the largest string is %s:",s1);
     exit(0);
   }
     else
   {
-    printf("the lagrest string is %s:",s2);
+    printf("the largest string is %s:",s2);
     exit(0);
     }
     }
