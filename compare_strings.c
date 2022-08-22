@@ -17,7 +17,7 @@ int compare(char s1[],char s2[])
 {
   for(int i=0;i<20;i++)
   {
-  if((s1[i]>s2[i])&(s1[i]&s2[i]>0))
+  if((s1[i]>s2[i])&&(s1[i]&&s2[i]>0))
   {
     printf("the largest string is %s:",s1);
     exit(0);
@@ -26,9 +26,9 @@ int compare(char s1[],char s2[])
   {
     printf("the largest string is %s:",s2);
     exit(0);
-    }
-    }
+  } 
   }
+}
 void main()
 {
   int *n;
